@@ -1,0 +1,8 @@
+name: ChatFilter
+version: ${project.version}
+main: dev.itseternity.chatfilter.ChatFilterPlugin
+api-version: 1.14
+softdepend: [LuckPerms]
+permissions:
+  chatfilter.alert:
+    default: op

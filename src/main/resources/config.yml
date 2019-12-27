@@ -1,0 +1,50 @@
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  username: username
+  password: password
+  database: database
+
+commands:
+  - "/message"
+  - "/msg"
+  - "/m"
+  - "/reply"
+  - "/r"
+  - "/whisper"
+  - "/w"
+  - "/mail"
+
+messages:
+  auto-mute: "&c&l[AutoMute] &c%player% turned the auto mute %state%"
+  auto-mute-add: "&c&l[AutoMute] &c%player% added %word% to the auto mute"
+  auto-mute-remove: "&c&l[AutoMute] &c%player% removed %word% from the auto mute"
+  auto-mute-exists: "&c&l[AutoMute] &c%word% is already on the auto mute!"
+  auto-mute-doesnt-exist: "&c&l[AutoMute] &c%word% is not on the auto mute!"
+  auto-mute-empty: "&c&l[AutoMute] &cThere are no words on the auto mute"
+  auto-mute-list-header: "&c&l[AutoMute] &cThere are %amount% muted words:"
+  auto-mute-list: "&c- %word%"
+  auto-mute-check: "&c&l[AutoMute] &c%player% is auto muted: %state%"
+
+  chatdelay-state: "&c&l[ChatDelay] &cThe current chat delay is set to: %delay% seconds"
+  chatdelay-set: "&c&l[ChatDelay] &c%player% set the chat delay to %delay%!"
+  chatdelay-off: "&c&l[ChatDelay] &c%player% turned the chat delay off!"
+
+  filter-whitelist: "&c&l[Filter] &c%player% added &7%word% &cto the whitelist"
+  filter-unwhitelist: "&c&l[Filter] &c%player% removed &7%word% &cfrom the whitelist"
+  filter-blacklist: "&c&l[Filter] &c%player% added &7%word% &cto the blacklist"
+  filter-unblacklist: "&c&l[Filter] &c%player% removed &7%word% &cfrom the blacklist"
+  filter-exists: "&c&l[Filter] &7%word% &cis already on the list!"
+  filter-not-exists: "&c&l[Filter] &7%word% &cis not on the list!"
+  filter-alert: "&c&l[Filter] &c%player%&8: &7%message%"
+
+  global-mute: "&c&l[GlobalMute] &c%player% %state% global mute"
+
+  chat-disabled: "&cThe chat is currently disabled"
+  filtered-chat: "&cYour message was caught by the filter, please review your message"
+  auto-mute-muted: "&cYou are not allowed to talk in chat!"
+  same-message: "&cDo not send the same message as before!"
+  mod-chat-delay: "&cThere is a chat delay, please wait before sending another message!"
+  chat-delay: "&cYou must wait before sending another message!"
+  chat-cleared: "&7The chat was cleared"
+  chat-cleared-staff: "&7The chat was cleared by %staff%"
